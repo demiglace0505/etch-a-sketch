@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch a Sketch</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.8.2/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="/styles/style.css">
+    <!-- css debugger -->
+    <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+</head>
+
+<body>
+    <section class="hero is-light is-bold">
+        <div class="hero-body">
+            <center>
+                <div class="container has-text-centered is-marginless">
+                    <h1 class="title">
+                        Etch-A-Sketch
+                    </h1>
+                    <h2 class="subtitle">
+                        <a
+                            href="https://www.theodinproject.com/courses/web-development-101/lessons/etch-a-sketch-project">Web
+                            Dev 101: Etch-a-Sketch</a>
+                    </h2>
+
+                    <div class="buttons are-medium center">
+                        <button id="clearButton" class="button is-danger">Clear Grid</button>
+                        <button id="newGridButton" class="button is-info">New Grid</button>
+                        <label class="checkbox">
+                            <input id="rainbowCheckbox" type="checkbox">
+                            Rainbow!
+                        </label>
+                    </div>
+
+
+                </div>
+            </center>
+        </div>
+    </section>
+
+    <center>
+        <div id="gridContainer">
+
+        </div>
+    </center>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
