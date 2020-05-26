@@ -1,2 +1,2 @@
 # etch-a-sketch
-git@github.com:demiglace0505/etch-a-sketch.git
+https://demiglace0505.github.io/etch-a-sketch/
